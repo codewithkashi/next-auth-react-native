@@ -18,9 +18,8 @@ const Login = () => {
         title="Login"
         onPress={() => {
           signIn({
-            email: 'admin@test.comm',
-            password: btoa('password'),
-            role: 'ADMIN',
+            email: 'admin@test.com',
+            password: 'password',
           });
         }}
       />

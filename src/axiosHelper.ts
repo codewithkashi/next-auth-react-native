@@ -2,7 +2,7 @@ import axios2 from 'axios';
 import { getData } from './storageHelper';
 
 const axios = axios2.create({
-  baseURL: 'https://kashif.futuredevsolutions.com/',
+  baseURL: 'https://exmaple.com/',
   headers: {
     'Content-Type': 'application/json',
   },
