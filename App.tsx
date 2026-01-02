@@ -5,13 +5,11 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import './global.css';
 import { SessionProvider } from './src/next-auth';
 import Login from './src/Login';
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
 
   return (
     <SessionProvider>
