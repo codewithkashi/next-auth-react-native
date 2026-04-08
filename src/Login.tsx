@@ -13,9 +13,9 @@ import {
   Keyboard,
   findNodeHandle,
 } from 'react-native';
-import { signIn, signOut, useSession } from './next-auth';
+import { signIn, signOut, useSession } from 'nextauth-react-native';
 const Login = () => {
-  const { data: session, status } = useSession();
+  const { data: session , status }: any = useSession();
   console.log(session);
   const [email, setEmail] = useState('admin@neighborhold.us');
   const [password, setPassword] = useState('admin123');
