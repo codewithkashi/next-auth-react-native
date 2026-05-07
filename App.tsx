@@ -6,7 +6,7 @@
  */
 
 import './global.css';
-import { SessionProvider } from 'nextauth-react-native';
+import { SessionProvider } from './auth';
 import Login from './src/Login';
 
 function App() {

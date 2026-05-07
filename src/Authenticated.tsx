@@ -1,4 +1,4 @@
-import { axios, signOut, useSession } from 'nextauth-react-native';
+import { axios, signOut, useSession } from '../auth';
 import { useEffect } from 'react';
 import { SafeAreaView, KeyboardAvoidingView, Platform, ScrollView, View, Text, TouchableOpacity } from 'react-native';
 export default function Authenticated() {

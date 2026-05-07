@@ -13,7 +13,7 @@ import {
   Keyboard,
   findNodeHandle,
 } from 'react-native';
-import { signIn, signOut, useSession } from 'nextauth-react-native';
+import { signIn, signOut, useSession } from '../auth';
 import Authenticated from './Authenticated';
 const Login = () => {
   const { data: session , status }: any = useSession();
