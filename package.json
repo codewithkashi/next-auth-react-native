@@ -15,7 +15,7 @@
     "@react-native/new-app-screen": "0.80.1",
     "axios": "^1.10.0",
     "nativewind": "^4.2.1",
-    "nextauth-react-native": "^1.0.5",
+    "nextauth-react-native": "^1.0.7",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "react": "19.1.0",
     "react-native": "0.80.1",
